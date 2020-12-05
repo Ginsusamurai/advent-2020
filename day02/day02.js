@@ -1,9 +1,6 @@
 var fs = require('fs');
- 
 var data = fs.readFileSync('input.txt', 'utf8');
-
 data = data.split('\n');
-
 console.log(data);
 
 const controller = data.map((val) =>{
